@@ -1,1 +1,3 @@
+ansible -i inventory all -m shell -a "systemctl status apache2"
 
+This command is used to check the status of apache in target server.
